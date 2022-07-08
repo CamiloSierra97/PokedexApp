@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import headerImage from '/Users/camilo.sierra/Documents/Fundamentos/entregable_5/vite-project/src/img/68747470733a2f2f692e696d6775722e636f6d2f415975745a4f462e706e67.png'
+import headerImage from './img/68747470733a2f2f692e696d6775722e636f6d2f415975745a4f462e706e67.png'
 
 const PokemonInfo = () => {
 

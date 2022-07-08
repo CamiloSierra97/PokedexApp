@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import pokeBall from '/Users/camilo.sierra/Documents/Fundamentos/entregable_5/vite-project/src/img/PokeBall_37565.ico'
+import pokeBall from './img/PokeBall_37565.ico'
 
 const PokemonCard = ({ pokemon }) => {
 
