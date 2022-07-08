@@ -5,7 +5,7 @@ import PokemonCard from './PokemonCard'
 import PokeForm from './PokeForm'
 import headerImage from './img/68747470733a2f2f692e696d6775722e636f6d2f415975745a4f462e706e67.png'
 
-const MainView = () => {
+const Main = () => {
 
   const userName = useSelector(state => state.userName)
 
@@ -93,4 +93,4 @@ const MainView = () => {
   )
 }
 
-export default MainView
+export default Main
