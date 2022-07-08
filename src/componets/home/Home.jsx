@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeForm from './HomeForm'
-import ash from '/Users/camilo.sierra/Documents/Fundamentos/entregable_5/vite-project/src/img/Pokemon31.png'
+import ash from './img/Pokemon31.png'
 
 const Home = () => {
 
