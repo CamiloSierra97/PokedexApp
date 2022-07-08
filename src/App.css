@@ -1,0 +1,303 @@
+* {
+  scroll-behavior: smooth;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 {
+  margin-top: 0%;
+}
+
+.App {
+  text-align: center;
+}
+
+.logo {
+  background-color: #E00400;
+}
+
+.btn {
+  background-color: rgba(255, 95, 92, 0.15);
+  color: rgb(163, 3, 0);
+  border-radius: 5px;
+  border-color: #E00400;
+  border: solid;
+  border-width: 2px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.09) translateY(-2px);
+}
+
+.home img {
+  width: 350px;
+  margin-right: 5%;
+}
+
+ul {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+
+.pokecard {
+  width: 500px;
+  margin: -6% -5.6% -8%;
+  border-radius: 20px;
+  transform: scale(0.7);
+}
+
+.pokecard:hover {
+  transform: scale(0.72);
+  cursor: pointer;
+  box-shadow: 0px 0x 16px #140111;
+  -webkit-box-shadow: 0px 0px 26px #140111;
+  -moz-box-shadow: 0px 0px 26px #140111;
+}
+
+.pokeimage {
+  width: 21vw;
+}
+
+.pokecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 3%;
+  width: 90%;
+  margin: 5% 0% 5% 5%;
+  border-color: #868794;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  box-shadow: 0px 0x 16px #140111;
+  -webkit-box-shadow: 0px 0px 6px #140111;
+  -moz-box-shadow: 0px 0px 16px #140111;
+  background-color: #E5E5F7;
+  background-image: radial-gradient(#1E1E1E 0.9px, transparent 0.5px), radial-gradient(#C90000 0.9px, transparent 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.home {
+  width: 90%;
+  margin: 1% 0% 0% 5%;
+  border-color: #868794;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  box-shadow: 0px 0x 16px #140111;
+  -webkit-box-shadow: 0px 0px 6px #140111;
+  -moz-box-shadow: 0px 0px 16px #140111;
+  background-color: #E5E5F7;
+  background-image: radial-gradient(#1E1E1E 0.9px, transparent 0.5px), radial-gradient(#C90000 0.9px, transparent 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  padding-bottom: 2%
+}
+
+.info td {
+  width: 61px;
+}
+
+.info__container {
+  width: 100%;
+  background-color: rgb(238, 238, 283);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.article__container {
+  width: 95%;
+  margin: 2.5%;
+  border-radius: 8px;
+}
+
+.info__table {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.normal {
+  background-color: rgb(63, 18, 35);
+}
+
+.normal main {
+  background: linear-gradient(rgba(97, 28, 53, 0.85) 0%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(97, 28, 53);
+}
+
+.fighting {
+  background-color: rgb(97, 25, 35);
+}
+
+.fighting main {
+  background: linear-gradient(rgba(135, 35, 49, 0.85) 0%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(110, 35, 17);
+}
+
+.poison {
+  background-color: rgb(53, 80, 42);
+}
+
+.poison main {
+  background: linear-gradient(rgba(80, 134, 70, 0.85) 0%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(3, 80, 42);
+}
+
+.ground {
+  background-color: rgb(99, 70, 64);
+}
+
+.ground main {
+  background: linear-gradient(rgba(136, 96, 89, 0.85) 0%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(74, 48, 50);
+}
+
+.rock {
+  background-color: rgb(83, 80, 104);
+}
+
+.rock main {
+  background: linear-gradient(rgba(167, 163, 184, 0.85) 0%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(93, 89, 115);
+}
+
+.ghost {
+  background-color: rgb(37, 79, 147);
+}
+
+.ghost main {
+  background: linear-gradient(rgba(59, 115, 206, 0.85) 0%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(37, 79, 147);
+}
+
+.bug {
+  background-color: rgb(31, 121, 21);
+}
+
+.bug main {
+  background: linear-gradient(rgba(107, 212, 37, 0.85) 0%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(97, 139, 37);
+}
+
+.steel {
+  background-color: rgb(100, 101, 105);
+}
+
+.steel main {
+  background: linear-gradient(rgba(126, 127, 131, 0.85) 0%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(90, 90, 94);
+}
+
+.fire {
+  background-color: rgb(205, 37, 1);
+}
+
+.fire main {
+  background: linear-gradient(rgba(255, 114, 7, 0.85) 0%, rgba(255, 210, 7, 1) 50%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(157, 0, 0);
+}
+
+.water {
+  background-color: rgb(0, 67, 238);
+}
+
+.water main {
+  background: linear-gradient(rgba(7, 139, 255, 0.85) 0%, rgba(6, 217, 224, 0.95) 50%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(0, 45, 157);
+}
+
+.grass {
+  background-color: rgb(7, 171, 43);
+}
+
+.grass main {
+  background: linear-gradient(rgba(5, 248, 41, 0.85) 0%, rgb(7, 255, 210) 50%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(34, 0, 157);
+}
+
+.electric {
+  background-color: rgb(241, 211, 2);
+}
+
+.electric main {
+  background: linear-gradient(rgba(0, 0, 0, 0.65) 0%, rgba(251, 255, 0, 0.85) 60%);
+  color: rgb(61, 53, 1);
+}
+
+.psychic {
+  background-color: rgb(137, 10, 151);
+}
+
+.psychic main {
+  background: linear-gradient(rgba(159, 9, 131, 0.85) 0%, rgba(197, 159, 201, 0.85) 60%);
+  color: rgb(61, 53, 1);
+}
+
+.ice {
+  background-color: rgb(25, 172, 240);
+}
+
+.ice main {
+  background: linear-gradient(rgba(81, 193, 245, 0.85) 0%, rgba(189, 227, 245, 0.85) 50%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(25, 104, 240);
+}
+
+.dragon {
+  background-color: rgb(41, 76, 96);
+}
+
+.dragon main {
+  background: linear-gradient(rgba(233, 114, 23, 0.85) 0%, rgba(173, 182, 196, 0.85) 30%, rgba(238, 238, 283, 1) 65%);
+  color: rgb(36, 67, 85);
+}
+
+.dark {
+  background-color: rgb(18, 17, 17);
+}
+
+.dark main {
+  background: linear-gradient(rgba(29, 29, 29, 0.85) 0%, rgba(173, 182, 196, 0.85) 30%, rgba(238, 238, 283, 1) 65%);
+  color: rgb(0, 0, 0);
+}
+
+.fairy {
+  background-color: rgb(234, 13, 171);
+}
+
+.fairy main {
+  background: linear-gradient(rgba(255, 112, 215, 0.85) 0%, rgba(238, 238, 283, 1) 60%);
+  color: rgb(76, 26, 87);
+}
+
+.moves__container {
+  margin: 10%;
+  background-color: #e5f1f7;
+  border-radius: 5px;
+}
+
+.moves {
+  padding: 1%;
+  border-radius: 10px;
+  background-color: rgba(71, 188, 234, 0.3);
+  color: rgb(35, 90, 242);
+}
+
+.moves:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 3px 3px 10px 0.5px rgba(20, 1, 17, 0.3);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  color: #eee;
+  background-color: #868794;
+}
